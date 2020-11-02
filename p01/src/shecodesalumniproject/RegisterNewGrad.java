@@ -57,7 +57,7 @@ public class RegisterNewGrad {
         System.out.println("Your password is saved");
         return password;
     }
-    public void sheCodesLogin() {
+    protected void sheCodesLogin() {
         String firstName = getFirstName();
         String lastName = getLastName();
         String password = RegisterNewGrad.getPassword();

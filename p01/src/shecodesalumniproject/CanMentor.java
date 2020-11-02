@@ -12,7 +12,7 @@ public class CanMentor {
         return mentorCourses;
     }
 
-    public void setMentorCourses(String[] mentorCourses) {
+    protected void setMentorCourses(String[] mentorCourses) {
         this.mentorCourses = mentorCourses;
     }
 

@@ -11,7 +11,7 @@ public class Allies  {
         return alliesCourses;
     }
 
-    public void setAlliesCourses(String[] alliesCourses) {
+    protected void setAlliesCourses(String[] alliesCourses) {
         this.alliesCourses = alliesCourses;
     }
 

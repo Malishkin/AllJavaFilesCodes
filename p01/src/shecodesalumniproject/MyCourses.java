@@ -18,7 +18,7 @@ public class MyCourses extends SheCodesCourses{
     }
 
     @Override
-    public void printCourses(String [] myCourses) {
+    protected void printCourses(String [] myCourses) {
         Arrays.sort(myCourses);
         System.out.println("The courses I finished are:");
         for(int i = 0; i<myCourses.length;i++){
