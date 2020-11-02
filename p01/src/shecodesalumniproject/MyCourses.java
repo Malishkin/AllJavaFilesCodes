@@ -26,4 +26,11 @@ public class MyCourses extends SheCodesCourses{
         }
     }
 
+    public String getLinkedInPage() {
+        return linkedInPage;
+    }
+
+    public void setLinkedInPage(String linkedInPage) {
+        this.linkedInPage = linkedInPage;
+    }
 }

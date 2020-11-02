@@ -29,7 +29,7 @@ public class RegisterNewGrad {
 
     }
 
-    public char[] generateOTP() {
+    protected char[] generateOTP() {
         System.out.println("Your temporary password is: ");
         final int lenght = 8;
         String capitalCaseLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
