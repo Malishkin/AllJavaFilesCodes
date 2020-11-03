@@ -3,7 +3,7 @@ package enigmas;
 import java.util.ArrayList;
 import java.util.List;
 
-public class LargestPrimeFactor {
+public class PrimeFactor {
     public static void main(String[] args) {
         primeFactors(315);
     }
