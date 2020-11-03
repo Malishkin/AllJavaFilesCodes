@@ -5,7 +5,7 @@ import java.util.List;
 
 public class PrimeFactor {
     public static void main(String[] args) {
-        primeFactors(315);
+        primeFactors(81);
     }
 
     private static void primeFactors(int number) {
